@@ -1,0 +1,14 @@
+.mh100dvh{
+  min-height: 100dvh;
+}
+.card1{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  min-width: 300px;
+  min-height: 400px;
+  transition: all var(--ts-time);
+  &.active{
+    min-width: 600px;
+  }
+}

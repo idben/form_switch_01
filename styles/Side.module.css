@@ -1,0 +1,25 @@
+.side{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 400px;
+  flex: 0 0 auto;
+  transition: top var(--ts-time), left var(--ts-time);
+}
+.side1{
+  background-color: #16affc;
+  background-image: url(/images/dog.png);
+  background-size: cover;
+  &.active{
+    left: 300px;
+  }
+}
+.side2{
+  background-color: #fcab16;
+  background-image: url(/images/cat.png);
+  background-size: cover;
+  &.active{
+    right: 300px;
+  }
+}
