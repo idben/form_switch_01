@@ -6,7 +6,7 @@
 ## 主要分支
 1. 使用純 HTML、CSS 和 JS 撰寫
 
-## 分支 dev2
+## 分支 react
 1. 主要分支的 react 版本
 2. 主要控制寫在 index，再把狀態與 function 傳到各組件中使用
 
